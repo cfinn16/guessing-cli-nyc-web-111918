@@ -3,4 +3,5 @@ def run_guessing_game
   guess = gets.chomp
   if guess == (1+ rand(6))
     puts ""
+  end  
 end
