@@ -4,7 +4,7 @@ def run_guessing_game
   comp_guess = (1 + rand(6)).to_s
   while user_input != "exit"
     if user_input == comp_guess
-      puts "You guess the correct number!"
+      puts "You guessed the correct number!"
     else
       puts "The computer guessed #{comp_guess}"
     end
