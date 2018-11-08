@@ -12,5 +12,5 @@ def run_guessing_game
     user_input = gets.chomp
     comp_guess = (1 + rand(6)).to_s
   end
-  "Goodbye!"
+  puts "Goodbye!"
 end
